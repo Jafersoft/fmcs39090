@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: gray;
+}
+/* header strt */
+header{
+    padding: 50px;
+    font-size: 30px;
+    color: white;
+}
+header ul{
+    float: right;
+    list-style: none;
+    
+}
+header ul li{
+display: inline-block;
+padding: 0 20px;
+}
+header ul li a{
+ text-decoration: none;
+ color: white;   
+}
+header ul li a:hover{
+background: black;
+border-radius: 10px;
+}
+
+/* header end */
+.log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(21 19 21 / 57%);
+    border: solid 3px rgb(0 0 0);
+    border-radius: 8px;
+    width: 225px;
+    font-family: sans-serif;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: flex-end;
+}
+.log .login h2{
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.int{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.int input{
+    margin: 8px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid #fff;;
+    background: none;
+    outline: none;
+    color: #FFF;
+    
+}
+.int input::placeholder{
+    color:#FFF;
+    padding: 30%;
+}
+.int a{
+    font-size: 25px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px 15px 5px 15px;
+    margin: 8px;
+    color:#47b39d;
+}
